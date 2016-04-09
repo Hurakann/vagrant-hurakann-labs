@@ -4,7 +4,7 @@ Vagrant The Hover Labs
 Vagrant environment for testing The Hover v6.1 easier and better than working with a local
 setup.
 
-Do not use this in production.
+**Do not use this in production.**
 
 Getting Started
 ---------------
