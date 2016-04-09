@@ -13,10 +13,24 @@ Getting Started
 2. If you haven't got it or another **`Vagrant-supported`** virtualization package, install **`VirtualBox`** (recommended).
 3. Download a box file **`thehoverlabs_v6.1.5.box`** (provided by your instructor).
 3. Make a directory to work, example mkdir **`thehover-labs`** and move the box file inside.
-4. Setup the vagrant box by typing: **```bash vagrant box add thehoverlabs thehoverlabs_v6.1.5.box```**.
+4. Setup the vagrant box by typing:
+
+  ```bash 
+        vagrant box add thehoverlabs thehoverlabs_v6.1.5.box
+  ```
+
 5. Copy the **`Vagrantfile`** (provided here) into directory already created before.
-6. Start vm: **`vagrant up`**
-7. Connect to vm: **`vagrant ssh`**
+6. Start vm:
+
+```bash
+       vagrant up
+```
+
+7. Connect to vm:
+
+```bash
+       vagrant ssh
+```
 
 In order to use this lab the instructor will start your environment for you (Riak, The Hover).
 
