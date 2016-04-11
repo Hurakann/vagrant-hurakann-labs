@@ -26,3 +26,9 @@ Configuration Notes
 - **`Riak version 2.1`** installed and ready to use for **`The Hover`**.
 - **`The Hover 6.1`** installed and ready to use, API listener on localhost:80 and certificates are provided
 by your instructor.
+- **`Certificates`**
+    - Account Key: jdoe
+    - Client Key: 2e4e19bb018f4e7789f34714e5e71fef
+    - Private Key: db25152edde44d4bb371d4db68df186f
+    - User Id: f66cd17945f3442aaea2333a9a259630
+    - Branch Id: f79b81548c4540a1874b2dee2483978f
