@@ -36,7 +36,6 @@ by your instructor.
 Curl Examples
 -------------
 
-        ```
         curl -i -X POST -H "Ckey: 2e4e19bb018f4e7789f34714e5e71fef" -H "Content-Type: application/json" -d '{"branch_id":"f79b81548c4540a1874b2dee2483978f","coloruser":"black","name":"John","phase":"phase1","user_id":"f66cd17945f3442aaea2333a9a259630","profile_id":"47ce62a69eb843f49e5c5b2d4f012380","lastname":"Doe","_years":30,"_status":"working","_isinhome":false}' "http://localhost/v1/user"
 
         curl -i -X GET -H "Ckey: 2e4e19bb018f4e7789f34714e5e71fef" "http://localhost/v1/user/search/ql?pagination=15&thql=WHERE%20name:s=John%20INCLUDE%20years,isinhome&branch_id=d3aaaa59a5014db0885a2f5a17964275"
@@ -44,5 +43,4 @@ Curl Examples
         curl -i -X POST -H "Ckey: 2e4e19bb018f4e7789f34714e5e71fef" -d '{"branch_id":"d3aaaa59a5014db0885a2f5a17964275", "main_user_id":"03f9b81a41b747ae96407a9144ea86a8", "users_id": ["3b1b18b4d33b46b1815296a4f1d9d879"]}' "http://localhost/v1/user/merge"
 
         curl -i -X GET -H "Ckey: 2e4e19bb018f4e7789f34714e5e71fef" "http://localhost/v1/user/merge?user_id=03f9b81a41b747ae96407a9144ea86a8"
-        ```
     
