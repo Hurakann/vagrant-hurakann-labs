@@ -33,7 +33,7 @@ by your instructor.
     - User Id: **`f66cd17945f3442aaea2333a9a259630`**
     - Branch Id: **`f79b81548c4540a1874b2dee2483978f`**
 
-Curl Examples
+curl Examples
 -------------
 
         curl -i -X POST -H "Ckey: 2e4e19bb018f4e7789f34714e5e71fef" -H "Content-Type: application/json" -d '{"branch_id":"f79b81548c4540a1874b2dee2483978f","coloruser":"black","name":"John","phase":"phase1","user_id":"f66cd17945f3442aaea2333a9a259630","profile_id":"47ce62a69eb843f49e5c5b2d4f012380","lastname":"Doe","_years":30,"_status":"working","_isinhome":false}' "http://localhost/v1/user"
